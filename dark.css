@@ -37,7 +37,7 @@ html::-webkit-scrollbar{
 
 }
 html::-webkit-scrollbar-track{
-    background-color: var(--white);
+    background-color: var(--light-black);
 }
 
 html::-webkit-scrollbar-thumb{
@@ -46,24 +46,11 @@ html::-webkit-scrollbar-thumb{
 section{
     padding: 5rem 10%;
 }
-.heading{
-    text-align: center;
-    margin-bottom: 3rem;
-}
-.heading span{
-    font-size: 2.5rem;
-    color: var(--peru);
-}
-
-.heading h3{
-    font-size: 4.5rem;
-    color: var(--black);
-}
 .btn{
     margin-top: 1rem;
     display: inline-block;
-    background: var(--peru);
-    color: var(--white);
+    background: rgba(214, 214, 214, 0.301);
+    color: var(--peru);
     font-size: 2rem;
     cursor: pointer;
     padding: 1rem 3rem;
@@ -80,7 +67,7 @@ section{
     justify-content: space-between;
     box-shadow: var(--box-shadow);
     top: 0; left: 0; right: 0;
-    background: var(--white);
+    background: #aaa;
     z-index: 1000;
     position: sticky;
 }
@@ -155,7 +142,7 @@ background: var(--black);
 .home .slide .content h3{
     font-size: 8vw;
      text-transform: uppercase;
-    color: var(--light-white);
+    color: rgb(146, 145, 145);
     text-shadow: 0 .5rem 1rem rgba(0, 0, 0, .7);
     line-height: 1;
     padding: 2rem 0;
@@ -174,14 +161,14 @@ display: inline-block;
    height: 5rem;
    width: 5rem;
    line-height: 5rem;
-   background: var(--white);
-   color:var(--black);
+   background:  rgb(146, 145, 145);
+   color:var(--light-white);
 }
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover{
    background: var(--peru);
-   color:var(--white);
+   color:var(--dark-bg);
 }
 
 .swiper-button-next::after,
@@ -207,11 +194,11 @@ display: inline-block;
 
 .about .content .tittle{
     font-size: 4rem;
-    color: var(--black);
+    color: var(--peru);
 }
 .about .content p{
     font-size: 2rem;
-    color: var(--light-black);
+    color:  var(--peru);
     padding: 1rem 0;
     line-height: 2;
 }
@@ -224,7 +211,7 @@ display: inline-block;
 .about .content .icons-container .icons{
     flex:1 1 16rem ;
     text-align: center;
-   background: var(--light-bg);
+   background:  rgb(73, 72, 72);
    padding: 3rem 2rem;
 }
 .about .content .icons-container .icons img{
@@ -234,51 +221,27 @@ display: inline-block;
 
     padding-top: 1rem ;
     font-size: 2rem;
-    color: var(--light-black);
+    color:#aaa;
     font-weight: normal;
 }
+.about{
+    background:  rgb(73, 72, 72);
+}
 
-.header .dark-light i{
-    color: var(--black);
+.header .sun-light i{
+    color: var(--peru);
     font-size: 2rem;
-margin-left:220px;
+margin-left:;
 text-align: center;
 box-shadow: #666;
 ;
 }
-.header .dark-light i:hover{
-    color: var(--peru)
+.header .sun-light i:hover{
+    color: var(--light-black);
 
 }
-.food{
-    background: var(--light-bg);
-}
 
-.food .slide{
-    text-align: center;
-    padding: 3rem 2rem;
-    transform: scale(.9);
-    opacity: .5;
-}
-.food .swiper-slide-active{
-    transform: scale(1);
-    opacity: 1;
-    background: var(--white);
-    box-shadow:var(--border);
-}
-.food .slide img{
-    height: 25rem;
-    margin-bottom: 1rem;
-}
-.food .slide h3{
-    font-size: 2.5rem;
-    padding: 1rem 0;
-    color:  var(--black);
-}
-.food .slide .price{
-    font-size: 2.5rem;
-    color: var(--peru);
-}
+
 
 
 
@@ -369,4 +332,4 @@ box-shadow: #666;
         font-size: 7rem;
     }
    }
-  /*47 cu deqiqete qaldim bunu bacara bilersen iman */ 
+  /*33 cu deqiqete qaldim bunu bacara bilersen iman */ 
