@@ -46,6 +46,19 @@ html::-webkit-scrollbar-thumb{
 section{
     padding: 5rem 10%;
 }
+.heading{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.heading span{
+    font-size: 2.5rem;
+    color: var(--peru);
+}
+
+.heading h3{
+    font-size: 4.5rem;
+    color: var(--black);
+}
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -227,9 +240,35 @@ display: inline-block;
 
 
 
+.food{
+    background: var(--light-bg);
+}
 
-
-
+.food .slide{
+    text-align: center;
+    padding: 3rem 2rem;
+    transform: scale(.9);
+    opacity: .5;
+}
+.food .swiper-slide-active{
+    transform: scale(1);
+    opacity: 1;
+    background: var(--white);
+    box-shadow:var(--border);
+}
+.food .slide img{
+    height: 25rem;
+    margin-bottom: 1rem;
+}
+.food .slide h3{
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    color:  var(--black);
+}
+.food .slide .price{
+    font-size: 2.5rem;
+    color: var(--peru);
+}
 
 
 
